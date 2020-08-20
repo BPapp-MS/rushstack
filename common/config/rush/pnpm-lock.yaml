@@ -495,14 +495,14 @@ importers:
     devDependencies:
       '@rushstack/eslint-config': 'link:../../stack/eslint-config'
       '@rushstack/heft': 'link:../../apps/heft'
-      '@types/jest': 25.2.1
+      '@rushstack/heft-jest': 'link:../../heft-plugins/heft-jest'
       '@types/node': 10.17.13
       eslint: 7.2.0
       typescript: 3.9.7
     specifiers:
       '@rushstack/eslint-config': 'workspace:*'
       '@rushstack/heft': 'workspace:*'
-      '@types/jest': 25.2.1
+      '@rushstack/heft-jest': 'workspace:*'
       '@types/node': 10.17.13
       eslint: ~7.2.0
       typescript: ~3.9.5
@@ -1230,6 +1230,18 @@ importers:
       '@types/node': 10.17.13
       gulp: ~4.0.2
       gulp-replace: ^0.5.4
+  ../../heft-plugins/heft-jest:
+    dependencies:
+      '@types/jest': 25.2.1
+    devDependencies:
+      '@microsoft/rush-stack-compiler-3.7': 0.6.4
+      '@rushstack/eslint-config': 'link:../../stack/eslint-config'
+      '@rushstack/heft': 0.5.1
+    specifiers:
+      '@microsoft/rush-stack-compiler-3.7': 0.6.4
+      '@rushstack/eslint-config': 'workspace:*'
+      '@rushstack/heft': 0.5.1
+      '@types/jest': 25.2.1
   ../../heft-plugins/pre-compile-hardlink-or-copy-plugin:
     dependencies:
       '@rushstack/node-core-library': 'link:../../libraries/node-core-library'
