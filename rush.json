@@ -764,6 +764,13 @@
 
     // "heft-plugins" folder (alphabetical order)
     {
+      "packageName": "@rushstack/heft-jest",
+      "projectFolder": "heft-plugins/heft-jest",
+      "reviewCategory": "libraries",
+      "shouldPublish": true,
+      "cyclicDependencyProjects": ["@microsoft/rush-stack-compiler-3.7", "@rushstack/heft"]
+    },
+    {
       "packageName": "@rushstack/pre-compile-hardlink-or-copy-plugin",
       "projectFolder": "heft-plugins/pre-compile-hardlink-or-copy-plugin",
       "reviewCategory": "libraries",

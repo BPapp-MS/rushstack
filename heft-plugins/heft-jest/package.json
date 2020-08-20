@@ -1,0 +1,20 @@
+{
+  "name": "@rushstack/heft-jest",
+  "version": "0.0.0",
+  "description": "Jest support for the Heft build system",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microsoft/rushstack/tree/master/heft-plugins/heft-jest"
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "homepage": "https://rushstack.io/pages/heft/overview/",
+  "license": "MIT",
+  "scripts": {
+    "build": ""
+  },
+  "dependencies": {
+    "@types/jest": "25.2.1"
+  }
+}
