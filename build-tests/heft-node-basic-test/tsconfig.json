@@ -14,7 +14,8 @@
     "experimentalDecorators": true,
     "strictNullChecks": true,
     "noUnusedLocals": true,
-    "types": ["jest", "node"],
+    "types": ["heft-jest", "node"],
+    "typeRoots": ["node_modules/@types", "node_modules/@rushstack/heft-jest/types"],
 
     "module": "commonjs",
     "target": "es2017",
