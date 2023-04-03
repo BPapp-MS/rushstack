@@ -1290,6 +1290,38 @@ importers:
       webpack-cli: 3.3.12_webpack@4.44.2
       webpack-dev-server: 4.9.3_spfcq5ngldu5cvjikbre424ry4
 
+  ../../build-tests/moduleminifier-webpack4-sourcemaps-test:
+    specifiers:
+      '@rushstack/eslint-config': workspace:*
+      '@rushstack/heft': workspace:*
+      '@rushstack/heft-dev-cert-plugin': workspace:*
+      '@rushstack/heft-jest-plugin': workspace:*
+      '@rushstack/heft-webpack4-plugin': workspace:*
+      '@rushstack/webpack4-module-minifier-plugin': workspace:*
+      '@types/heft-jest': 1.0.1
+      '@types/webpack-env': 1.18.0
+      eslint: ~8.7.0
+      file-loader: ~6.0.0
+      tslint: ~5.20.1
+      tslint-microsoft-contrib: ~6.2.0
+      typescript: ~4.8.4
+      webpack: ~4.44.2
+    devDependencies:
+      '@rushstack/eslint-config': link:../../eslint/eslint-config
+      '@rushstack/heft': link:../../apps/heft
+      '@rushstack/heft-dev-cert-plugin': link:../../heft-plugins/heft-dev-cert-plugin
+      '@rushstack/heft-jest-plugin': link:../../heft-plugins/heft-jest-plugin
+      '@rushstack/heft-webpack4-plugin': link:../../heft-plugins/heft-webpack4-plugin
+      '@rushstack/webpack4-module-minifier-plugin': link:../../webpack/webpack4-module-minifier-plugin
+      '@types/heft-jest': 1.0.1
+      '@types/webpack-env': 1.18.0
+      eslint: 8.7.0
+      file-loader: 6.0.0_webpack@4.44.2
+      tslint: 5.20.1_typescript@4.8.4
+      tslint-microsoft-contrib: 6.2.0_is64cncltak2c2767drphpzcku
+      typescript: 4.8.4
+      webpack: 4.44.2
+
   ../../build-tests/rush-amazon-s3-build-cache-plugin-integration-test:
     specifiers:
       '@rushstack/eslint-config': workspace:*

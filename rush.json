@@ -534,7 +534,12 @@
       "reviewCategory": "tests",
       "shouldPublish": false
     },
-
+    {
+      "packageName": "moduleminifier-webpack4-sourcemaps-test",
+      "projectFolder": "build-tests/moduleminifier-webpack4-sourcemaps-test",
+      "reviewCategory": "tests",
+      "shouldPublish": false
+    },
     // "build-tests-samples" folder (alphabetical order)
     {
       "packageName": "heft-node-basic-tutorial",
