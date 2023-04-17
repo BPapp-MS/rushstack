@@ -1,27 +1,33 @@
 {
   "name": "moduleminifier-webpack4-sourcemaps-test",
-  "description": "Building this project tests that sourcemaps load correctly with the webpack4 module minifier plugin.",
-  "version": "1.0.0",
+  "description": "Building this project exercises @rushstack/webpack4-module-minifier-plugin and validates sourcemaps",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "build": "heft build --clean",
-    "start": "heft start",
+    "test": "heft test --clean",
+    "serve": "heft start --clean",
     "_phase:build": "heft build --clean",
-    "_phase:test": "heft test --no-build"
+    "_phase:test": "heft test --clean"
+  },
+  "dependencies": {
+    "@rushstack/node-core-library": "workspace:*"
   },
   "devDependencies": {
-    "@rushstack/eslint-config": "workspace:*",
-    "@rushstack/heft": "workspace:*",
-    "@rushstack/heft-dev-cert-plugin": "workspace:*",
-    "@rushstack/heft-jest-plugin": "workspace:*",
+    "@rushstack/hashed-folder-copy-plugin": "workspace:*",
     "@rushstack/heft-webpack4-plugin": "workspace:*",
-    "@types/heft-jest": "1.0.1",
+    "@rushstack/heft-jest-plugin": "workspace:*",
+    "@rushstack/heft": "workspace:*",
+    "@rushstack/heft-node-rig": "workspace:*",
+    "@rushstack/webpack4-module-minifier-plugin": "workspace:*",
+    "@rushstack/set-webpack-public-path-plugin": "workspace:*",
     "@types/webpack-env": "1.18.0",
-    "eslint": "~8.7.0",
-    "file-loader": "~6.0.0",
-    "tslint": "~5.20.1",
-    "tslint-microsoft-contrib": "~6.2.0",
+    "@types/heft-jest": "1.0.1",
+    "@types/node": "14.18.36",
+    "html-webpack-plugin": "~4.5.2",
     "typescript": "~4.8.4",
-    "webpack": "~4.44.2"
+    "webpack-bundle-analyzer": "~4.5.0",
+    "webpack": "~4.44.2",
+    "source-map-loader": "~1.1.3"
   }
 }
